@@ -1,0 +1,28 @@
+{
+  "name": "luxembourgish-stop-words",
+  "version": "0.2.0",
+  "author": "Sankalp Ghatpande <code@sghatpande.eu> (http://sghatpande.eu)",
+  "description": "A collection of stopwords for luxembourgish language",
+  "keywords": [
+    "luxembourgish",
+    "stopwords",
+    "luxembourg",
+    "stop words"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/Deadlyelder/luxembourgish-stop-words",
+  "bugs": "https://github.com/Deadlyelder/luxembourgish-stop-words/issues",
+  "main": "luxembourgish-stop-words.json",
+  "engines": {
+    "node": ">=16.10.0"
+  },
+  "scripts": {
+    "build": "stopwords-collator -s . -o luxembourgish-stop-words",
+    "test": "npm run build && jsonlint luxembourgish-stop-words.json -q"
+  },
+  "devDependencies": {
+    "stopwords-collator": "*",
+    "jsonlint": "*"
+  }
+}
+
