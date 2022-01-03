@@ -8,9 +8,10 @@ A repository that (attempts) to list all the stop words in Luxembourgish.
 ### Usage
 
 The luxembourg stop words are in two format:
-*[JSON](https://raw.githubusercontent.com/Deadlyelder/luxembourgish-stop-words/luxembourgish-stop-words.json)
 
-*[Text]((https://raw.githubusercontent.com/Deadlyelder/luxembourgish-stop-words/luxembourgish-stop-words.txt)
+* [JSON](https://raw.githubusercontent.com/Deadlyelder/luxembourgish-stop-words/main/luxembourgish-stop-words.json)
+
+* [Text](https://github.com/Deadlyelder/luxembourgish-stop-words/blob/main/luxembourgish-stop-words.txt)
 
 The package is being published on [npm](https://www.npmjs.com/package/luxembourgish-stop-words)
 
