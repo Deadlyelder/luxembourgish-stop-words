@@ -1,6 +1,6 @@
 {
   "name": "luxembourgish-stop-words",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Sankalp Ghatpande <code@sghatpande.eu> (http://sghatpande.eu)",
   "description": "A collection of stopwords for luxembourgish language",
   "keywords": [
@@ -25,4 +25,3 @@
     "jsonlint": "*"
   }
 }
-
