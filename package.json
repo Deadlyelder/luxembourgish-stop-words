@@ -17,7 +17,7 @@
     "node": ">=16.10.0"
   },
   "scripts": {
-    "build": "stopwords-collator -s . -o luxembourgish-stop-words",
+    "build": "stopwords-collator -s input -o luxembourgish-stop-words",
     "test": "npm run build && jsonlint luxembourgish-stop-words.json -q"
   },
   "devDependencies": {
